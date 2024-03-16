@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main-Home.css">
+    <title>BOOK-ISHQ</title>
+    <script>
+      function display(name) {
+        
+        
+        if(name==="more")
+        {
+          alert("Routing to Website for more books like this");
+        }
+        else
+        {
+          alert(name + " is selected ");
+        }
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo logo">
+          <a href="#">BOOK-ISHQ</a>
+        </div>
+        <div class="navbar-buttons">
+          <a href="Routes/SignIN.html" class="navbar-button">Log In</a>
+          <a href="Routes/SignUP.html" class="navbar-button">Register</a>
+        </div>
+    </nav>
+    
+    <!-- home -->
+    <section id="wallpaper">
+
+        <h1 id="Heading" class="Heading animated-text">Start Reading with india's Online BOOK RENTAL SYSTEM</h1>
+        <section id="wallpaper1">
+            <h1 class="logo1">- Steps to follow to get your favorite book -</h1>
+        </section>
+        <div class="steps">
+            <img src="assets/WhatsApp Image 2021-10-18 at 9.46.29 PM.jpeg" class="step1" width="33%" alt="Image not found">
+            <img src="assets/WhatsApp Image 2021-10-18 at 9.46.29 PM (1).jpeg" width="33%" alt="Image not found">
+            <img src="assets/WhatsApp Image 2021-10-18 at 9.46.29 PM (2).jpeg" class="step3" width="33%" alt="Image not found">
+        </div>
+        <hr>
+    
+        <section class="self-help back">
+            <h1 class="genre">Genre : <u>Self-Help</u> </h1>
+            <div class="scroll">
+                <a class="Rich dad Poor Dad" onclick="display(this.getAttribute('class'))"> <img class="book" src="assets/rich dad poor dad.jfif" alt="" width="20%" (click)="bookName('Rich Dad Poor Dad')"></a>
+                <a class="Atomic Habit" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/atomic habit.jpg" alt="" width="20%" (click)="bookName('Atomic Habit')"></a>
+                <a class="How To Win Friends" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/how to win friends.jpg" alt="" width="20%" (click)="bookName('How To Win Friends')"></a>
+                <a class="Think And Grow" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/think and grow rich.jfif" alt="" width="20%" (click)="bookName('Think And Grow Rich')"></a>
+                <a class="Think Like Monk" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/thinklikemonk.jpg" alt="" width="20%" (click)="bookName('Think Like A Monk')"></a>
+                <a class="Subtle Art of Not Giving F###" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/thesubtlartofnotgiving.jpg" alt="" width="20%" (click)="bookName('The Subtl Art Of Not Giving A Fuck')"></a>
+                <a class="12 Rules For Life" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/12rulesforlife.jpg" alt="" width="20%" (click)="bookName('12 Rules For Life')"></a>
+                <a class="more" onclick="display(this.getAttribute('class'))" href="#"><img class="book" src="assets/more.jfif" alt="" width="20%"></a>
+    
+    
+            </div>
+        </section>
+    
+        <hr>
+    
+        <section class="fiction back">
+            <h1 class="genre">Genre : <u>Fiction</u> </h1>
+            <div class="scroll">
+                <a class="Two State" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Fiction/2states.jpg" alt="" width="20%" (click)="bookName('2 States')"></a>
+                <a class="All Light We Cant See" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Fiction/alllightwecantsee.jfif" alt="" width="20%" (click)="bookName('All Light We cannot See')"></a>
+                <a class="Invisible Man" onclick="display(this.getAttribute('class'))" ><img class="book" src="assets/Fiction/invisible man.jfif" alt="" width="20%" (click)="bookName('Invisible Man')"></a>
+                <a class="Lord Of Rings" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Fiction/lordofrings.jfif" alt="" width="20%" (click)="bookName('Lord Of Rings')"></a>
+                <a class="But Who Cares" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Fiction/Pan_Lakshat_Kon_Gheto_cover.jpg" alt="" width="20%" (click)="bookName('Who Cares')"></a>
+                <a class="The Mortals Of Meluha" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Fiction/theimortalsofmeluha.jfif" alt="" width="20%" (click)="bookName('The Imortals Of Meluha')"></a>
+                <a class="Where Forest Meets" onclick="display(this.getAttribute('class'))" ><img class="book" src="assets/Fiction/whereforestmeetsstar.jpg" alt="" width="20%" (click)="bookName('Where Forest Meets Star')"></a>
+                <a class="more" href="#"><img class="book" src="assets/more.jfif" alt="" width="20%"></a>
+            </div>
+        </section>
+        <section class="novel back ">
+    
+            <h1 class="genre">Genre : <u>Novel</u> </h1>
+            <div class="scroll">
+                <a class="Fasting Fisting" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/novel/fasting fisting.jfif" alt="" width="20%" alt="" (click)="bookName('fasting fisting')"></a>
+                <a class="Invisible Man"onclick="display(this.getAttribute('class'))" ><img class="book" src="assets/novel/invisible man.jpg" alt="" (click)="bookName('invisible man')" width="20%"></a>
+                <a class="Life Of Gandhi" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/novel/life of gandhi.jfif" alt="" (click)="bookName('life of gandhi')" width="20%"></a>
+                <a class="Nectar In The Sieve"onclick="display(this.getAttribute('class'))" ><img class="book" src="assets/novel/nectar in the sieve.jfif" alt="" (click)="bookName('nectar in the sieve')" width="20%"></a>
+                <a class="Secret Of Nagas" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/novel/secret of nagas.jfif" alt="" (click)="bookName('secret of nagas')" width="20%"></a>
+                <a class="Serious Men"onclick="display(this.getAttribute('class'))" ><img class="book" src="assets/novel/serious men.jfif" alt="" (click)="bookName('serious men')" width="20%"></a>
+                <a class="Shantaram" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/novel/shantaram.jpg" alt="" (click)="bookName('shantaram')" width="20%"></a>
+                <a class="Wings Of Fire" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/novel/wings of fire.jpg" alt="" (click)="bookName('wings of fire')" width="20%"></a>
+                <a class="more" href="#"><img class="book" src="assets/more.jfif" alt="" width="20%"></a>
+            </div>
+        </section>
+    
+        <h1 class="genre">Genre : <u>Horror</u> </h1>
+        <div class="scroll">
+            <a class="Ghost Story"onclick="display(this.getAttribute('class'))" ><img class="book" src="assets/horror/Ghost Story.jpg" alt="" (click)="bookName('Ghost Story')" width="20%"></a>
+            <a class="Hell House" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/horror/Hell House.jpg" alt="" (click)="bookName('Hell House')" width="20%"></a>
+            <a class="House of Leaves" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/horror/House of Leaves.jpg" alt="" (click)="bookName('House of Leaves')" width="20%"></a>
+            <a class="Pet Sematary" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/horror/Pet Sematary.jpg" alt="" (click)="bookName('Pet Sematary')" width="20%"></a>
+            <a class="Selemanlot" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/horror/Seleman lot.jpg" alt="" (click)="bookName('Seleman lot')" width="20%"></a>
+            <a class="The Legend of hell house" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/horror/The Legend of hell house.jpg" alt="" (click)="bookName('The Legend of hell house')" width="20%"></a>
+            <a class="The only Good Indians" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/horror/The only Good Indians.jpg" alt="" (click)="bookName('The only Good Indians')" width="20%"></a>
+            <a class="more" href="#"><img class="book" src="assets/more.jfif" alt="" width="20%"></a>
+        </div>
+    
+        <h1 class="genre">Genre : <u>Sci-fi</u> </h1>
+        <div class="scroll">
+            <a class="Broken Stars" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Scifi/broken stars.jpg" alt="" (click)="bookName('Broken Stars')" width="20%"></a>
+            <a class="Hyperion" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Scifi/Hyperion.jpg" alt="" (click)="bookName('Hyperion')" width="20%"></a>
+            <a class="Stranger In a StrangeLand" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Scifi/Stranger In a Strange Land.jpg" alt="" (click)="bookName('Stranger In a Strange Land')" width="20%"></a>
+            <a class="The Abyss Beyond Dreams" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Scifi/The Abyss Beyond Dreams.jpg" alt="" (click)="bookName('The Abyss Beyond Dreams')" width="20%"></a>
+            <a class="The Calculating Stars" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Scifi/The Calculating Stars.jpg" alt="" (click)="bookName('The Calculating Stars')" width="20%"></a>
+            <a class="The Last Astronaut" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Scifi/The Last Astronaut.jpg" alt="" (click)="bookName('The Last Astronaut')" width="20%"></a>
+            <a class="The Solar Wars" onclick="display(this.getAttribute('class'))"><img class="book" src="assets/Scifi/The Solar War.jpg" alt="" (click)="bookName('The Solar Wars')" width="20%"></a>
+            <a class="more" href="#"><img class="book" src="assets/more.jfif" alt="" width="20%"></a>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+              <div class="footer-section about">
+                <h3 class="footer-section-title">About Us</h3>
+                <p>We are Online Book Rental Platform Which allows you to rent book. We also have a helpline service feel free to contact .</p>
+              </div>
+              <div class="footer-section contact">
+                <h3 class="footer-section-title">Contact Us</h3>
+                <ul>
+                  <li><i class="fa fa-phone"></i> 69798999</li>
+                  <li><i class="fa fa-envelope"></i> book-ishq.com</li>
+                </ul>
+              </div>
+              <div class="footer-section address">
+                <h3 class="footer-section-title">Address</h3>
+                <p>Behind Shramajivi School<br>Pune-411039</p>
+              </div>
+            </div>
+          </footer>
+          
+
+    </section>
+
+        
+    
+    
+</body>
+</html>
