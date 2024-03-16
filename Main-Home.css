@@ -1,0 +1,201 @@
+
+body{
+    background-color: #000000;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: url("assets/colorful_needles_black_abstract_4k_hd_abstract.jpg");
+    padding: 0 20px;
+  }
+    
+.navbar-buttons {
+    display: flex;
+  }
+  
+.navbar-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+.navbar-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+a:hover
+{
+  cursor: pointer;
+}
+
+
+.logo {
+    font-family: fantasy;
+    background: linear-gradient( to right, #a543f5, #eedd44);;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 35px;
+    position: relative;
+    
+    }
+
+.logo:hover {
+    background-image: linear-gradient( to left, #a543f5, #eedd44);;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+/* navbar */
+
+/* home */
+.logo1 {
+    /* font-family: fantasy; */
+    background-color: #42378f;
+    background-image: linear-gradient(to bottom, #fcfcfc 0%, #d574f5 100%);
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    -webkit-background-clip: text;
+    font-size: 35px;
+    position: relative;
+    bottom: 16px;
+    left: 9px;
+}
+
+#Heading {
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 55px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 3px rgb(83, 2, 70);
+    font-size: 40px;
+}
+.animated-text {
+    animation: color-change 2s ease-in-out infinite alternate;
+}
+@keyframes color-change {
+    from {
+      color: #fbfda4;
+    }
+    to {
+      color: #d4d4d4;
+    }
+}
+
+.steps {
+    background-color: black;
+}
+
+.genre {
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    position: relative;
+    bottom: -10px;
+    letter-spacing: 0.05em;
+}
+
+.genre u:hover{
+    cursor: pointer;
+}
+
+.book {
+    margin: 25px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: thick;
+}
+hr {
+    height: 0.2cm;
+    background-image: linear-gradient(to left, rgb(112, 4, 58), rgb(18, 0, 100));
+}
+
+section.back {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.self-help {
+    margin-top: 0%;
+}
+div.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#wallpaper {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(44, 0, 44));
+}
+
+#wallpaper1 {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+    height: 5px;
+    padding-top: 5px;
+    margin: top 0;
+}
+.details {
+    font-style: italic;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding-left: 3cm;
+}
+
+/* home */
+
+/* footer */
+.footer {
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 40px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex-basis: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .footer-section-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li i {
+    margin-right: 10px;
+  }
+
+/* footer */
